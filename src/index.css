@@ -3,3 +3,29 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.track-listing {
+  display: flex;
+  flex-direction: column;
+}
+
+.track-list {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  align-items: center;
+}
+
+.track-list:nth-child(2n){
+  background-color: lightGrey;
+}
+
+.artist{
+  padding-left: 20px;
+  width: 200px;
+}
+
+.album {
+  padding-left: 10px;
+  padding-right: 10px;
+}
